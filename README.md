@@ -1,6 +1,6 @@
-# Django - Install Soft Dashboard Theme
+# Django - Install [Soft Dashboard Theme](https://github.com/app-generator/django-admin-soft-dashboard)
 
-This free sample explains how to create from scratch a new Django project, add authentication and improve the UI by installing Soft Dahsboard, a modern BS5 design. 
+This free sample explains how to create from scratch a new Django project, add authentication and improve the UI by installing **[Soft Dashboard](https://github.com/app-generator/django-admin-soft-dashboard)**, a modern BS5 design from `Creative-Tim`. 
 
 <br />
 
@@ -151,4 +151,4 @@ $ python manage.py runserver
 <br />
 
 ---
-Django, How to Install Soft Dashboard Theme - Open-source sample provided by [AppSeed](https://appseed.us)
+Django, How to Install [Soft Dashboard Theme](https://github.com/app-generator/django-admin-soft-dashboard) - Open-source sample provided by [AppSeed](https://appseed.us)

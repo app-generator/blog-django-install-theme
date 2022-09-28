@@ -8,9 +8,9 @@ This free sample explains how to create from scratch a new Django project, add a
 
 <br />
 
-# Create the project
+# ✨ Create the project
 
-> Create the directory 
+> 👉 **Create the directory** 
 
 ```bash
 $ mkdir my-django-project
@@ -19,7 +19,7 @@ $ cd my-django-project
 
 <br />
 
-> Install the dependencies
+> 👉 **Install the dependencies**
 
 ```bash
 $ virtualenv env
@@ -29,7 +29,7 @@ $ pip install Django
 
 <br />
 
-> Create the Django project
+> 👉 **Create the Django project**
 
 ```bash
 $ django-admin startproject core . 
@@ -46,7 +46,7 @@ $ python manage.py migrate
 
 <br />
 
-> Start the app
+> 👉 **Start the app**
 
 ```bash
 $ python manage.py runserver
@@ -58,7 +58,7 @@ $ python manage.py runserver
 
 <br />
 
-> Create a superuser
+> 👉 **Create a superuser**
 
 ```bash
 $ python manage.py createsuperuser
@@ -72,9 +72,9 @@ At this point we can access the `admin` section that uses a minimal style.
 
 <br />
 
-## Install Soft UI Design
+## ✨ Install Soft UI Design
 
-> Install the PyPi package
+> 👉 **Install the PyPi package**
 
 ```bash
 $ pip install django-admin-soft-dashboard
@@ -82,7 +82,7 @@ $ pip install django-admin-soft-dashboard
 
 <br />
 
-> Configure Django to use the new design
+> 👉 **Configure Django to use the new design**
 
 > Add `admin_soft` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
@@ -96,7 +96,7 @@ $ pip install django-admin-soft-dashboard
 
 <br />
 
-> Start the app and access the new admin design
+> 👉 **Start the app and access the new admin design**
 
 ```bash
 $ python manage.py runserver
@@ -108,11 +108,11 @@ $ python manage.py runserver
 
 <br />
 
-## Add a new app
+## ✨ Add a new app
 
 This section explains how to add a minimal app that handles ordinary users registration. 
 
-> Create the new app
+> 👉 **Create the new app**
 
 ```bash
 $ django-admin startapp authentication
@@ -138,7 +138,7 @@ INSTALLED_APPS = [
 
 <br />
 
-> Start the app and access the new admin design
+> 👉 **Start the project** and `access the new admin` design
 
 ```bash
 $ python manage.py runserver
@@ -151,4 +151,4 @@ $ python manage.py runserver
 <br />
 
 ---
-Django, How to Install [Soft Dashboard Theme](https://github.com/app-generator/django-admin-soft-dashboard) - Open-source sample provided by [AppSeed](https://appseed.us)
+**[Django](https://appseed.us/apps/django/)**, How to Install [Soft Dashboard Theme](https://github.com/app-generator/django-admin-soft-dashboard) - Open-source sample provided by [AppSeed](https://appseed.us)

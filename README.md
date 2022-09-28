@@ -4,6 +4,10 @@ This free sample explains how to create from scratch a new Django project, add a
 
 <br />
 
+![Django, Install Soft Dashboard Theme - Index Page.](https://user-images.githubusercontent.com/51070104/192701821-946628cd-25ce-494f-a6e5-9a1b14c81fd4.jpg)
+
+<br />
+
 # Create the project
 
 > Create the directory 
@@ -48,6 +52,12 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
+<br />
+
+![Django, Install Soft Dashboard Theme - Default Django Page.](https://user-images.githubusercontent.com/51070104/192701963-dd017bb9-4958-44b6-b695-0195272dc9a8.jpg)
+
+<br />
+
 > Create a superuser
 
 ```bash
@@ -55,6 +65,10 @@ $ python manage.py createsuperuser
 ```
 
 At this point we can access the `admin` section that uses a minimal style. 
+
+<br />
+
+![Django, Install Soft Dashboard Theme - Default Admin UI.](https://user-images.githubusercontent.com/51070104/192702068-2ecc1a2b-e9d2-478e-ac50-4b951eee2f0f.jpg)
 
 <br />
 
@@ -90,6 +104,10 @@ $ python manage.py runserver
 
 <br />
 
+![Django, Install Soft Dashboard Theme - Default Admin UI.](https://user-images.githubusercontent.com/51070104/192702182-d083ff5f-31f8-479d-aacd-4bc795bbd9ba.jpg)
+
+<br />
+
 ## Add a new app
 
 This section explains how to add a minimal app that handles ordinary users registration. 
@@ -113,10 +131,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authentication',
+    'authentication',                # <-- NEW
 ]
 ... 
 ```
+
+<br />
+
+> Start the app and access the new admin design
+
+```bash
+$ python manage.py runserver
+```
+
+<br />
+
+![Django, Install Soft Dashboard Theme - New Sign UI page.](https://user-images.githubusercontent.com/51070104/192702349-6133424d-e930-42f9-8b03-6e97b27e3993.jpg)
 
 <br />
 
